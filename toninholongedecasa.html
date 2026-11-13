@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+<title>Twilight Mistress Brasil</title>
+<style>
+* {
+   
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+   
+background-color: #326A8D;
+font-family: Arial, sans-serif;
+color: #8D323C;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+padding: 25px;
+}
+.site-container {
+display: flex;
+flex-direction: row;
+width: 100%;
+zoom: 1.9;
+gap: 40px;
+}
+header .sidebar {
+display: flex;
+flex-direction: column;
+width: 350px;
+gap: 15px;
+} .banner-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.poster-img {
+width: 75%;
+height: auto;
+border-radius: 4px 4px 0 0;
+display: block;
+}
+h1 .title {
+background-color: #436C82;
+color: #FFFFFF;
+font-size: 18px;
+text-align: center;
+padding: 8px;
+width: 100%;
+border-radius: 0 0 8px 8px;
+}
+.newsletter-section h2 {
+color: #8D323C;
+font-size: 15px;
+font-weight: bold;
+margin-bottom: 10px;
+line-height: 1.3;
+}
+.newsletter-form {
+display: flex;
+gap: 8px;
+}
+.newsletter-form input[type="email"] {
+background-color: #FFFFFF;
+border: none;
+padding: 8px;
+border-radius: 6px;
+flex: 1;
+font-size: 13px; }
+.newsletter-form input[type="submit"] {
+background-color: #B6C6CF;
+border: none;
+color: #8D323C;
+font-weight: bold;
+padding: 8px 12px;
+border-radius: 6px;
+cursor: pointer;
+}
+main .main-content {
+display: flex;
+flex-direction: column;
+flex: 1;
+gap: 25px;
+}
+.navbar ul {
+display: flex;
+list-style: none;
+background-color: #FFFFFF;
+border-radius: 4px;
+overflow: hidden;
+}
+.navbar li {
+flex: 1;
+text-align: center;
+border-right: 1px solid #326A8D;
+}
+.navbar li:last-child {
+border-right: none;
+}
+.navbar a {
+display: block;
+padding: 10px 0;
+text-decoration: none;
+color: #8D323C;
+font-weight: bold;
+font-size: 15px;
+} .content-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.headline {
+color: #8D323C;
+font-size: 19px;
+text-align: center;
+line-height: 1.4;
+text-transform: uppercase;
+}
+.form-card {
+background-color: #6C8E9E;
+border: 2px solid #3F6077;
+border-radius: 15px;
+padding: 35px;
+width: 100%;
+max-width: 600px;
+}
+.form-card form {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.input-group input {
+width: 100%;
+background-color: #326A8D;
+border: none;
+padding: 15px 18px;
+border-radius: 15px;
+color: #FFFFFF;
+font-size: 16px;
+outline: none;
+}
+.input-group input::placeholder {
+color: #C0D2DC; }
+.submit-container {
+display: flex;
+justify-content: center;
+}
+.btn-submit {
+background-color: #B6C6CF;
+border: none;
+color: #8D323C;
+font-weight: bold;
+font-size: 15px;
+padding: 10px 25px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+@media (max-width: 650px) {
+            .site-container {
+                flex-direction: column;
+                align-items: center;
+            }
+ 
+            .header {
+                font-size: 10px;
+                padding: 6px 10px;
+            }
+            .main-content {
+                font-size: 10px;
+                padding: 6px 10px;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+</style>
+</head>
+<body>
+<div class="site-container">
+<header class="sidebar">
+<div class="banner-box">
+<img
+src="https://tse3.mm.bing.net/th/id/OIP.cAfdROtc4M-RmgjOW7xLygHaFj?r=0&
+w=1600&h=1200&rs=1&pid=ImgDetMain" alt="Twilight Poster"
+class="poster-img">
+<h1 class="title">TWILIGHT MISTRESS BRASIL</h1>
+</div>
+<div class="newsletter-section">
+<h2>GOSTOU DO BLOG E QUER ACOMPANHAR CADA
+POST?<br>ASSINE A NEWSLETTER!</h2>
+<form class="newsletter-form">
+<input type="email" placeholder="DIGITE SEU EMAIL"
+required>
+<input type="submit" value="ASSINAR">
+</form>
+</div>
+</header> <main class="main-content">
+<nav class="navbar">
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">LOGIN</a></li>
+<li><a href="#">NOTÍCIAS</a></li>
+<li><a href="#">REVIEWS</a></li>
+<li><a href="#">MEMES</a></li>
+</ul>
+</nav>
+<section class="content-box">
+<h1 class="headline">QUER TER SEU PRÓPRIO NICKNAME,
+POSTAR MEMES DIVERTIDOS E COMENTAR NAS POSTAGENS? SE CADASTRE
+AGORA</h1>
+<div class="form-card">
+<form action="#" method="post">
+<div class="input-group">
+<input type="email" name="email" id="email"
+placeholder="DIGITE SEU E-MAIL" required>
+</div>
+<div class="input-group">
+<input type="password" name="senha"
+placeholder="DIGITE SUA SENHA" required>
+</div>
+<div class="input-group">
+<input type="password"
+name="confirma_senha" placeholder="COMFIRME A SENHA" required>
+</div>
+<div class="submit-container">
+<input type="submit" class="btn-submit"
+value="ASSINAR">
+</div>
+</form> </div>
+</section>
+</main>
+</div>
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Josué Rodrigo E.Figueiredo">
+    <meta name="keywords" content="Formulario TechSolution">
+    <meta name="description" content="Formulario de visita da TechSolution">
+    <title>TechSolution - IA e Chatbots</title>
+    <style>
+    body{
+        /* fundo do site */
+        background-color:#faf9fc;
+        /* mudar cor da letra */
+        color:black;
+        /*  fonte */
+        font-family: verdana, geneva, tahoma, sans-serif ;
+        /*  margem */
+        margin:10;
+        padding: 10;
+
+    }
+    header{
+        text-align: center;
+        padding: 30px;
+    }
+
+    header img{
+        width:300px ;
+    }
+    /* tipos de fonte */
+
+    blockquote{
+        font-style: italic;
+        color:rgb(110, 2, 173);
+    }
+
+    main{
+        width: 80%;
+        padding: 20px;
+        margin: auto;
+
+    }
+    h1,h2,h3{
+        color:rgb(110, 2, 173);
+
+    }
+    table{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    table,th,td{
+        border: 1px solid #5d0499;
+    }
+
+    th{
+        background-color: #ae00ff;
+        padding: 10px;
+    }
+    /* alteração depois que passar com o mouse */
+    td{
+        padding: 10px;
+    }
+
+    tr:hover {
+        background-color: rgb(197, 145, 228);
+      
+    }
+    ol[type="I"]{
+        padding: 10px;
+    }
+
+    ol[type="I"]:hover {
+        background-color: rgb(197, 145, 228);
+      
+    }
+    ul{
+        padding: 10px;
+    }
+
+    ul:hover {
+        background-color: rgb(197, 145, 228);
+      
+    }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>TechSolution</h1>
+
+        <img src="https://media.licdn.com/dms/image/v2/D4E0BAQEO0dbBzELItw/company-logo_200_200/company-logo_200_200/0/1694500701793/techsolutions_logo?e=2147483647&v=beta&t=ZngMB0v1CpsL3tNlGZ5VUKEDxxIjvawVSKi5RtmJzhc";
+         alt=" Logotipo da empresa TechSolution">
+
+        <p>
+            <strong>TechSolution</strong> é uma empresa do ramo de
+            <i>tecnologia</i> especializada em soluções digitais
+            <u>inovadoras</u>.
+        </p>
+
+        <blockquote>
+            Transformando tecnologia em resultados reais para o seu negócio.
+        </blockquote>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Quem Somos</h2>
+
+            <p>
+                A TechSolution atua no mercado oferecendo
+                desenvolvimento de sistemas, suporte técnico
+                e consultoria digital.
+            </p>
+        </section>
+
+        <section>
+
+            
+            <h3>Nossos Serviços</h3>
+
+            <p>
+               <h4>Trabalhamos com <strong>qualidade</strong>,
+                <i>segurança</i> e <u>inovação</u>.
+        </h4> </p>
+        </section>
+
+        <ol type="I">
+            <li>Planejamento Estratégico</li>
+            <br>
+            <li>Desenvolvimento de Sistemas</li>
+            <br>
+            <li>Suporte Especializado</li>
+        </ol>
+
+        <h2>Tabela de Serviços</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Desenvolvimento Web</td>
+                    <td>Criação de sites e sistemas online</td>
+                </tr>
+
+                <tr>
+                    <td>Suporte Técnico</td>
+                    <td>Manutenção e assistência em sistemas</td>
+                </tr>
+
+                <tr>
+                    <td>Consultoria</td>
+                    <td>Orientação estratégica em tecnologia</td>
+                </tr>
+
+                <tr>
+                    <td><strong>IA e Chatbots</strong></td>
+                    <td>Automação de atendimento inteligente</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Cadastro de Visitantes</h2>
+
+        <form>
+        <style> 
+        header{
+        text-align: center;
+        padding: 30px; }
+        label{
+        font-style: italic;
+        color:rgb(89, 28, 160); }
+        main{
+        width: 80%;
+        padding: 20px;
+        margin: auto;}
+        table{
+        width: 100%;
+        margin-top: 50px; }
+         
+        input[type="submit"]{
+            border: 1px solid #420772;} 
+            input[type="submit"] {
+                background-color: #a9f51c;
+        padding: 10px;}
+         input[type="submit"]:hover {
+        background-color: rgb(90, 5, 187);
+        }
+                input[type="submit"]{
+                    padding: 10px; }
+
+                  </style>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <hr>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+
+            <hr>
+
+            <p>Localização:</p>
+
+            <input type="radio" name="localizacao"> Brasil
+            <input type="radio" name="localizacao"> Exterior
+
+            <hr>
+
+            <label for="mensagem">Mensagem de Orçamento:</label>
+            <textarea id="mensagem" rows="5" required></textarea>
+
+            <hr>
+
+            <input type="submit" value="Enviar Cadastro">
+        </form>
+
+    </main>
+    <hr size="10" width="100%">
+
+    <footer>
+
+    
+        <p>© 2026 - TechSolution. Todos os direitos reservados.</p>
+
+        <ul> <h3>
+            <li><a href="#">Site da empresa</a></li>
+            <br>
+            <li><a href="#">Canal da empresa</a></li>
+            </h3>
+        </ul>
+
+        <address>
+            TechSolution@gmail.com <br>
+            Telefone: (77) 99999-0000
+        </address>
+        <hr size="10" width="100%">
+
+        <p>
+            Nota Técnica: Emissões de CO<sub>2</sub> e eficiência energética E = mc<sup>2</sup>.
+        </p>
+    </footer>
+
+</body>
+
+</html>
